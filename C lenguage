@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    // Deklarasi variabel dengan tipe data float
+    float a, b, c, diskriminan;
+
+    // Meminta pengguna untuk memasukkan nilai a, b, dan c
+    printf("Masukkan nilai a: ");
+    scanf("%f", &a);
+    printf("Masukkan nilai b: ");
+    scanf("%f", &b);
+    printf("Masukkan nilai c: ");
+    scanf("%f", &c);
+
+    // Menghitung diskriminan
+    diskriminan = (b * b) - (4 * a * c);
+
+    // Menampilkan hasil
+    printf("Diskriminan: %.2f\n", diskriminan);
+
+    return 0;
+}
